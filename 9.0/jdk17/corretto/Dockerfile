@@ -1,7 +1,7 @@
 #
 # NOTE: THIS DOCKERFILE IS GENERATED VIA "apply-templates.sh"
 #
-# PLEASE DO NOT EDIT IT DIRECTLY.
+# PLEASE DO NOT EDIT IT DIRECTLY. 
 #
 
 FROM amazoncorretto:17
@@ -154,5 +154,5 @@ RUN set -eux; \
 		exit 1; \
 	fi
 
-EXPOSE 8080
+EXPOSE 8888
 CMD ["catalina.sh", "run"]
